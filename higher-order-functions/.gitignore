@@ -1,0 +1,58 @@
+#############################################
+#
+# project
+#
+#############################################
+.vagrant
+node_modules/
+bower_components/
+npm-debug.log
+tmp
+dist
+public/assets/shared
+testem.log
+.DS_Store
+coverage.json
+.idea
+.env
+.tern-project
+
+#############################################
+#
+# system
+#
+#############################################
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+
+# swap
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+# session
+Session.vim
+# temporary
+.netrwhist
+*~
+# auto-generated tag files
+tags
