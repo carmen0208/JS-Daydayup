@@ -70,7 +70,6 @@ function reduce(array, combine, start) {
 
 [Exampe](composability.html)
 
+## With the power of recursion(I still not totally understand because I'm dull)
 
-
-
-[example](composability.html)
+[example](recursion.html)
