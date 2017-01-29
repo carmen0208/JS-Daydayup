@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <script src="11unconstructor_inheritance2.js"></script>
+</head>
+<body>
+  <h1>非构造函数继承2: 浅拷贝
+    </h1>
+<p>please open console</p>
+<p>除了使用"prototype链"以外，还有另一种思路：把父对象的属性，全部拷贝给子对象，也能实现继承。</p>
+<p>缺点：</p>
+
+  <ol>
+    <li>如果父对象的属性等于数组或另一个对象，那么实际上，子对象获得的只是一个内存地址，而不是真正拷贝，因此存在父对象被篡改的可能</li>
+  </ol>
+</body>
+</html>
