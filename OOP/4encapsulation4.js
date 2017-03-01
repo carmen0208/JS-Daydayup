@@ -8,6 +8,8 @@ Cat.prototype.eat = function(){console.log("吃老鼠");};
 
 var cat1 = new Cat("大毛","黄色");
 var cat2 = new Cat("二毛","黑色");
+console.dir(cat1);
+console.dir(cat2); 
 console.log(cat1.type); // 猫科动物
 cat1.eat(); // 吃老鼠
 console.log(cat1.eat == cat2.eat); //false
